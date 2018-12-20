@@ -20,7 +20,16 @@ Here's a list of items with which you should be familiar:
 
 Make a cheat sheet for yourself: a list of at least **ten** commands and what they do.  (Use the 8 items above and add a couple of your own.)  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > * show current working directory path
+* creating a directory
+* deleting a directory
+* creating a file using `touch` command
+* deleting a file
+* renaming a file
+* listing hidden files
+* copying a file from one directory to another
+* sorting a file
+* removing duplicate values in a file
 
 ---
 
@@ -35,7 +44,13 @@ What do the following commands do:
 `ls -t`  
 `ls -Glp`  
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > * `ls`  list the files and directories within a directory 
+* `ls -a`  list the files and directories within a directory including hidden files that begin with '.'
+* `ls -l`  list the files and directories within a directory in long format
+* `ls -lh`  list the files and directories within a directory in long format with readable file size
+* `ls -lah`  list the files and directories within a directory in long format with readable file size, including hidden files
+* `ls -t`  list the files and directories within a directory by time and date of last change
+* `ls -Glp` list the files and directories within a directory, excludes the owner name (-G), in long format (-l), and shows directory (-p) 
 
 ---
 
@@ -43,7 +58,11 @@ What do the following commands do:
 
 Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) and pick 5 of your favorites:
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > * `ls -u` displays files by access time
+* `ls -c` displays files by time stamp
+* `ls -d` displays only directory
+* `ls -alt` displays files in long format, including hidden files, by time and date of last change
+* `ls -m` displays files in a comma separated list
 
 ---
 
