@@ -70,7 +70,7 @@ Explore these other [ls options](http://www.techonthenet.com/unix/basic/ls.php) 
 
 What does `xargs` do? Give an example of how to use it.
 
-> > REPLACE THIS TEXT WITH YOUR RESPONSE
+> > `xargs` is used to run a command through every item in a list. For example, if you had a list of files in a directory with varying suffix names, but wanted to make them all one standard suffix (such as .txt) you could pipe the ones you want to manipulate into xargs (i.e. the non .txt files), and then use commands that will iterate once through every item that was piped in. Your result would be that every file in a directory now ends in .txt.
 
  
 
